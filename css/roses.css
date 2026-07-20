@@ -1,0 +1,220 @@
+@import "chota.min.css";
+@import "custom.css";
+
+@font-face {
+    font-family: 'guavine';
+    src: url(../fonts/guavinepixelregulardemo-bl6gg_fontlotecaa.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'pixel';
+    /* src: url(../fonts/ari-w9500-display.ttf) format('truetype'); */
+    src: url(../fonts/Cursive.ttf) format('truetype');
+}
+
+:root {
+    /* this has to be set to switch between light or dark */
+    color-scheme: light dark;
+
+    --light-bg-bottom: #f7dab4;
+    --light-bg-top: #eacaa8;
+    --light-hbg: #0e3b3925;
+    --light-qbg: #ffffff65;
+    --light-tb: #ecf1efc5;
+    --light-color: #0f0f0f;
+    --light-h:  #f0f0f0;
+    --light-a: #843e33; 
+    --light-menu: #f0f0f0;
+    --light-foot: #f5f2f000;
+    --light-shadow: #1100ff;
+  
+    --dark-bg-top: #113156;
+    --dark-bg-bottom: #0f2d55;
+    --light-hbg: #f5c7d900;
+    --dark-qbg: #00000065;
+    --dark-tb: #252425c5;
+    --dark-color: #f0f0f0;
+    --dark-h:  #0f0f0f;
+    --dark-a: #a8d6db;
+    --dark-menu: #0f0f0f;
+    --dark-foot: #00000000;
+    --dark-shadow: #ff0055;
+
+
+  }
+
+
+
+body {
+background-image: 
+                    /* url("/images/eye.svg"), */
+                    linear-gradient(to right,
+                    light-dark(var(--light-bg-top), var(--dark-bg-top)) 0%,
+                    light-dark(var(--light-bg-bottom), var(--dark-bg-bottom)) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  /* top: -1rem; */
+  /* position: absolute; */
+
+  z-index: -1;
+}
+
+.dark #wide-header {
+      filter: invert(100%);
+}
+
+
+
+.header-row 
+{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+    #wide-header {
+
+        background: 
+        /* linear-gradient(to bottom, rgba(255, 255, 255, 0) 49.9%, #f8ece079 50%, #f8ece0bd 100%), */
+        url("/images/image-from-rawpixel-id-16413355-original.jpg") no-repeat;
+
+
+
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position-y: bottom;
+        background-position-x: center;
+        background-size: 100vw;
+        
+
+        width: 100%; /* 3114 by 2400 */
+        height: 55rem;
+        top: 0rem;
+        position: absolute;
+        z-index: -1;
+
+    }
+
+
+
+  h1 {
+    font-family: guavine;
+  }
+
+  
+  h1 {  
+    font-size: 22rem;
+    line-height: 20rem;
+    color: light-dark(var(--light-a), var(--dark-a));
+    text-shadow: -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+  }
+
+.box-text {
+  background-color:  light-dark(var(--light-h), var(--dark-h));
+  box-shadow:  1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+  padding: 1.5rem;
+  padding-bottom: 0rem;
+}
+
+.box-text-left {
+
+  background-color:  light-dark(var(--light-h), var(--dark-h));
+  box-shadow:  -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
+  padding: 1.5rem;
+  padding-bottom: 0rem;
+
+}
+
+.date-col .box-text {
+  padding: 1.5rem;
+  width: max-content;
+  float: right;
+}
+
+.date-col
+{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+  
+  h1 a {
+        color: light-dark(var(--light-h), var(--dark-h));
+
+  }
+  
+  h2 {
+    font-family: 'pixel';
+    font-size: 6rem;
+    line-height: 7rem;
+    /* color: light-dark(var(--light-h), var(--dark-h)); */
+    /* text-shadow: -0.6rem 0.6rem light-dark(var(--light-shadow), var(--dark-shadow)); */
+  }
+
+  h2 a {
+            color: light-dark(var(--light-a), var(--dark-a));
+
+  }
+
+
+#what 
+{
+  padding-top: 3rem;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+      #wide-header {
+            background-size: 200vw;
+
+  }
+}
+@media only screen and (max-width: 900px) {
+
+    h1 {
+        font-size: 14rem;
+        line-height: 14rem;
+    }
+
+      .header-row 
+{
+    padding-top: 0rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  
+    #wide-header {
+              height: 40rem;
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+          #wide-header {
+            background-size: 300vw;
+
+  }
+
+
+    h1 {
+        font-size: 12rem;
+        line-height: 12rem;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    h1 {
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+}
+
+
+
