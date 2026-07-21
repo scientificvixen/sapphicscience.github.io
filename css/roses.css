@@ -111,19 +111,27 @@ background-image:
     text-shadow: -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
   }
 
-.box-text {
+.box-text, .box-text-left {
   background-color:  light-dark(var(--light-h), var(--dark-h));
   box-shadow:  1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
-  padding: 1.5rem;
-  padding-bottom: 0rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+p + p 
+{margin-top: 1rem;}
+
+p {
+  margin-block-end: 0rem;
+  
 }
 
 .box-text-left {
 
-  background-color:  light-dark(var(--light-h), var(--dark-h));
   box-shadow:  -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
-  padding: 1.5rem;
-  padding-bottom: 0rem;
 
 }
 
