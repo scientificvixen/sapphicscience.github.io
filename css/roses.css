@@ -121,6 +121,7 @@ background-image:
 
 }
 
+
 p + p 
 {margin-top: 1rem;}
 
@@ -157,6 +158,7 @@ p {
     font-family: 'pixel';
     font-size: 6rem;
     line-height: 7rem;
+    padding-top: 15rem;
     /* color: light-dark(var(--light-h), var(--dark-h)); */
     /* text-shadow: -0.6rem 0.6rem light-dark(var(--light-shadow), var(--dark-shadow)); */
   }
@@ -167,7 +169,7 @@ p {
   }
 
 
-#what 
+.row + .row 
 {
   padding-top: 3rem;
 }
@@ -187,6 +189,12 @@ p {
         font-size: 14rem;
         line-height: 14rem;
     }
+
+    h2 {
+      padding-top: 0rem;
+    }
+
+    
 
       .header-row 
 {
