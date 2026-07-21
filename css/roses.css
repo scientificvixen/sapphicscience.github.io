@@ -19,7 +19,7 @@
     --light-bg-bottom: #f7dab4;
     --light-bg-top: #eacaa8;
     --light-hbg: #0e3b3925;
-    --light-qbg: #ffffff65;
+    --light-qbg: #ede7d9;
     --light-tb: #ecf1efc5;
     --light-color: #0f0f0f;
     --light-h:  #f0f0f0;
@@ -31,7 +31,7 @@
     --dark-bg-top: #113156;
     --dark-bg-bottom: #0f2d55;
     --light-hbg: #f5c7d900;
-    --dark-qbg: #00000065;
+    --dark-qbg: #08243c;
     --dark-tb: #252425c5;
     --dark-color: #f0f0f0;
     --dark-h:  #0f0f0f;
@@ -122,7 +122,7 @@ background-image:
 }
 
 
-p + p 
+ p +  p 
 {margin-top: 1rem;}
 
 p {
@@ -154,7 +154,7 @@ p {
 
   }
   
-  h2 {
+  article h2 {
     font-family: 'pixel';
     font-size: 6rem;
     line-height: 7rem;
@@ -169,7 +169,7 @@ p {
   }
 
 
-.row + .row 
+article .row + .row 
 {
   padding-top: 3rem;
 }
@@ -225,7 +225,7 @@ p {
 
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
     h1 {
         font-size: 10rem;
         line-height: 10rem;
