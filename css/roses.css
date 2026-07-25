@@ -24,8 +24,8 @@
     --light-color: #0f0f0f;
     --light-h:  #f0f0f0;
     --light-a: #843e33; 
-    --light-menu: #f0f0f0;
-    --light-foot: #f5f2f000;
+    --light-menu: #ede7d9;
+    --light-foot: #ede7d9;
     --light-shadow: #1100ff;
   
     --dark-bg-top: #113156;
@@ -36,12 +36,13 @@
     --dark-color: #f0f0f0;
     --dark-h:  #0f0f0f;
     --dark-a: #a8d6db;
-    --dark-menu: #0f0f0f;
-    --dark-foot: #00000000;
+    --dark-menu: #08243c;
+    --dark-foot: #08243c;
     --dark-shadow: #ff0055;
 
 
   }
+
 
 
 
@@ -130,6 +131,23 @@ p {
   
 }
 
+#numb, #money-bag, #rainy-day {
+  width: 6.5rem;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  opacity: 1;
+}
+
+.light article img 
+{  
+  filter: brightness(0) saturate(100%) invert(27%) sepia(12%) saturate(2736%) hue-rotate(320deg) brightness(100%) contrast(90%);
+}
+
+.dark article img 
+{  
+filter: brightness(0) saturate(100%) invert(90%) sepia(17%) saturate(441%) hue-rotate(137deg) brightness(90%) contrast(90%);
+}
+
 .box-text-left {
 
   box-shadow:  -1rem 1rem light-dark(var(--light-shadow), var(--dark-shadow));
@@ -171,7 +189,8 @@ p {
 
 article .row + .row 
 {
-  padding-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 
