@@ -51,6 +51,8 @@ body {
     --light-shadow: #928b90a9;
     --light-url-bg: #ffffffcd;
     --light-foot: white;
+    --light-selected-text: white;
+    --light-selected-bg: black;
   
     --dark-bg: #440915;
     --dark-bg-bottom: #33040e;
@@ -65,6 +67,9 @@ body {
     --dark-url-bg: #000000cd;
     --dark-foot: black;
 
+    --dark-selected-text: black;
+    --dark-selected-bg: white;
+
     --font-family-sans: 'Inter', sans-serif;
     --font-family-mono: "IBM Plex Mono", "Consolas", "Lucida Console", monospace;
 
@@ -73,9 +78,10 @@ body {
 
 
   ::selection {
-  color:light-dark( magenta, rgb(255, 254, 168));
-  background-color: light-dark(rgb(255, 254, 168),
-                            magenta);
+  color: light-dark(var(--light-selected-text),
+                    var(--dark-selected-text));
+  background-color: light-dark(var(--light-selected-bg),
+                    var(--dark-selected-bg));
   }
 
 
