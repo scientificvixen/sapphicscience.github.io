@@ -207,6 +207,8 @@ article .row + .row
     h1 {
         font-size: 14rem;
         line-height: 14rem;
+        text-shadow: -0.6rem 0.6rem light-dark(var(--light-shadow), var(--dark-shadow));
+
     }
 
     article h2 {
