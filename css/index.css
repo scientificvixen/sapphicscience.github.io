@@ -27,7 +27,7 @@ h1 {
     }
 }
 
-h2#publications, h2#featured {
+h2#publications, h2#featured, summary {
     font-size: 8rem;
     line-height: 9rem;
     margin-right: 1rem;
@@ -41,12 +41,12 @@ h2#publications, h2#featured {
 }
 
 
-h1, h2#publications, h2#featured {
+h1, h2#publications, h2#featured, summary {
     font-family:  'DhCario', Garamond, serif;
 
 }
 
- h2, h3, .brand{
+ h2, h3, .brand {
     font-family: 'Borel', Garamond, serif;
 }
 
