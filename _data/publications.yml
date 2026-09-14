@@ -769,7 +769,7 @@
   doi: 10.5281/zenodo.20639860
   pdf: https://zenodo.org/records/20639860/files/Guest2026Models.pdf?download=1
   server: Zenodo
-  selected: 1
+  selected: 0.5
   tags:
     - cail
 
@@ -784,3 +784,15 @@
   selected: 1
   tags:
     - cail
+
+
+- date: 2026-09-11
+  type: preprint
+  status: unpublished
+  authors: Chuang, Y. & <b>Guest, O.</b>
+  title: 'Beyond Empirical Success: Evaluating Theoretical Virtue Across the Computational Modeling Chain'
+  doi: 10.5281/zenodo.22708906
+  pdf: https://zenodo.org/records/22708906/files/Chuang_Guest_2026.pdf?download=1
+  server: Zenodo
+  selected: 1
+  tags:
