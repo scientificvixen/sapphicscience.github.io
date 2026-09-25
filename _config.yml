@@ -3,21 +3,18 @@
 #
 
 # Name of your site (displayed in the header)
-name: Olivia Guest
+name: Sapphic Science
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: oliviaguest
+disqus: sapphicscience
 
 # Enter your analytics web tracking code for https://counter.dev/ to activate tracking
-analytics_id: d88bbc10-ec68-48f6-bcdf-79be816d5598
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-42657104-1
+analytics_id: 
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://olivia.science
+url: https://sapphic.science
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
