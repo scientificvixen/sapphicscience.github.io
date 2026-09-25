@@ -1,4 +1,4 @@
-oliviaguest.github.io
+sapphicscience.github.io
 =====================
 
-My personal website: [olivia.science](https://olivia.science)
+My personal website: [sapphic.science](https://sapphic.science)
